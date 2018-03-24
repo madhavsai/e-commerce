@@ -1,0 +1,47 @@
+<html>
+<head>
+  <style>
+  .one{
+    margin-left: 300px;
+    margin-top: 150px;
+    width: 200px;
+    height: 70px;
+    background-color: black;
+  }
+  .two{
+    margin-left: 300px;
+    height: 400px;
+    width: 200px;
+    background-color: lightgreen;
+    display: none;
+  }
+  .tw{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: red;
+  }
+</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+
+  function callme(){
+  $(".two").slideDown(500);
+}
+function back(){
+  $(".two").slideUp(400);
+}
+  </script>
+</head>
+<body>
+  <div class="one" onmouseover="callme();" onmouseout="back();"></div>
+    <div class="two">
+      <div class="tw"></div>
+      <div class="tw"></div>
+      <div class="tw"></div>
+
+
+
+    </div>
+</body>
+</html>

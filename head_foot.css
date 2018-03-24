@@ -1,0 +1,472 @@
+@charset "utf-8";
+@media screen and (min-width:1025px) and (max-width:1400px){
+
+.cookies{
+	font-size: 10px;
+}
+}
+.endp{font-family: 'Chewy', cursive;
+	margin-left: 250px;
+	color: #61C4BE;
+	font-size: 100px;
+	font-weight: 300;
+}
+header{
+  	height: 170px;
+   transition: all 0.2s ease;
+   width: 100%;
+}
+header.sticky{z-index: 5001;
+  transition: all 0.2s ease;
+  height: 120px;
+ width: 100%;
+ position: fixed;
+ border-bottom: 1px solid black;
+}
+@media screen and (min-width:801px) and (max-width:1024px){
+.main_cont{
+	height:100%;
+	width: 1024px;
+	display:flex;
+	flex-wrap:wrap;
+}
+}
+.main_cont{
+margin-left:calc((100% - 1024px)/2);
+margin-right:calc((100% - 1024px)/2);
+display:flex;
+flex-wrap:wrap;
+overflow: visible;
+font-size: 15px;
+height: 170px;
+}
+#sinlink{
+	text-decoration: none;
+	color:#585858;
+	display: block;
+}
+@charset "utf-8";
+@charset "utf-8";
+@charset "utf-8";
+body{
+	 font-family: 'Chewy', cursive;
+	 font-weight: 200;
+	height:100%;
+	width:100%;
+	margin:0;
+	background-color:#FFFFFF;
+	}
+	.content{
+		width: 100%;
+	height: auto;}
+	.content_in{
+		width: 100%;
+		height: auto;
+	}
+.head{
+	width: 100%;
+	overflow: visible;
+	background-color:#FFFFFF;
+	height: 170px;
+	background-image: linear-gradient(bottom, #49AA9D, #49AA9D 33%, transparent 33%, transparent 100%);
+    background-image: -webkit-linear-gradient(bottom, #49AA9D, #49AA9D 33%, transparent 33%, transparent 100%);
+		background-image: -moz-linear-gradient(bottom, #49AA9D, #49AA9D 33%, transparent 33%, transparent 100%)
+	}
+	.head.sticky{
+	width: 100%;
+	overflow: visible;
+	background-color:#FFFFFF;
+	border-bottom: 4px solid #49AA9D;
+	height: 120px;
+	ackground-image: linear-gradient(bottom, #FFFFFF, #FFFFFF 33%, transparent 33%, transparent 100%);
+		background-image: -webkit-linear-gradient(bottom, #FFFFFF, #FFFFFF 33%, transparent 33%, transparent 100%);
+		background-image: -moz-linear-gradient(bottom, #FFFFFF, #FFFFFF 33%, transparent 33%, transparent 100%)
+		border-bottom: 5px solid black;
+
+}
+.logo_cont{
+  width:21.6667%;
+	height:67%;
+
+	}
+.logo{
+	font-size: 45px;
+	height:100%;
+	width:100%;
+}
+.logo img{
+	display: block;
+	margin-left: 15%;
+	height: 100%;
+	width: 10body_home0%;
+}
+.acc_cart{
+	line-height: 400%;
+	width:33%;
+	height:67%;
+	display:flex;
+	text-align: center;
+	order:2;
+
+}
+.account{
+	text-align: center;
+	width:50%;
+  height:100%;}
+	.account a{
+		line-height: 18px;
+		margin-top: 20px;
+		text-decoration: none;
+		color: #585858;
+		font-size: 20px;
+font-family: 'Chewy', cursive;
+	}
+.cart{
+	color: #585858;
+font-weight: 400;
+	font-size: 10px;
+	text-align: center;
+	width:50%;
+height:100%;}
+.cart button{
+	font-family: 'Chewy', cursive;
+	color: #585858;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 12px;
+	line-height: 25px;
+	margin-top: 30px;
+	width: 75%;
+	height: 35%;
+	border: none;
+
+}
+.cart i{
+	margin-right: 10px;
+}
+.help_cont{
+	width: 30%;
+	height: 67%;
+	order:0;
+	color: #585858;
+}
+.help{margin-top: 30px;
+	text-align: center;
+	font-family: 'Chewy', cursive;
+	font-size: 18px;
+}
+.search_cont{
+	width:10%;
+	height:67%;
+	order:1;
+	text-align: right;
+}
+.search_cont img{
+	margin-top: 10px;
+}
+.fotter{
+	margin-top: 200px;
+	height:130px;
+	width:100%;
+	position: absolute;
+	background-image: url("ftr2.png");
+}
+.fotterr{
+	height:130px;
+	width:100%;
+	position: absolute;
+	background-image: url("ftr2.png");
+}
+/*css for the menu bar*/
+#mnav {
+	display: block;
+	order:5;
+  width: 100%;
+  height: 33%;
+	overflow: visible;
+}
+#nav {
+	display: block;
+  width: 100%;
+  float: left;
+  padding: 0;
+  background-color:#49AA9D;
+}
+
+#nav li {
+	margin-left: 25%;
+  float: left;
+overflow: visible;
+  width: 24.99%;
+}
+#nav li li {
+  float: left;
+  display: table-cell;
+	overflow: visible;
+  width: 100%;
+  background-color: #49AA9D;
+}
+#nav li a {
+  display: block;
+	overflow: visible;
+  padding: 2px 60.5px;
+  text-align: left;
+	line-height: 320%;
+  color: #ffffff;
+  text-decoration: none;
+  height: 100%;
+	font-size: 20px;
+	  font-family: 'Chewy', cursive;
+	 font-weight: 400;
+}
+#nav li a:hover {
+	overflow: visible;
+  color: black;
+  background-color:#E6E6E6;
+	transition: 1s;
+  height: 100%;
+
+}
+ul {
+	overflow: visible;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  display:table;
+}
+ul li {
+	overflow: visible;
+  display: block;
+  position: relative;
+  float: left;
+  height: 100%;
+}
+
+.delivery{
+	width: 100%;
+}
+/*styles for the signup*/
+.overlay{
+	display:none;
+position: fixed;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+background-color: black;
+z-index:1001;
+-moz-opacity: 0.8;
+opacity:.80;
+filter: alpha(opacity=80);
+}
+.signup{
+	display: none;
+	position: fixed;
+	top: 15%;
+	left: 25%;
+	width: 683px;
+	height:490px;
+	padding: 6px;
+	background-color: white;
+	z-index:9002;
+	overflow: auto;
+}
+.signup_con{
+	align-self: bottom;
+	display: none;
+	width: 100%;
+	height: 92%;
+}
+.sign_close{
+	text-align: right;
+	width: 100%;
+	height: 8%;
+}
+.sign_close a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+.body_home{
+	width: 100%;
+	height:900;
+	background-color: FFFFFF;
+}
+.body_home a{
+	text-decoration: none;
+	font-size: 28px;
+	color: white;
+}
+/*styles for the user menu*/
+.umenu{
+	height: 170px;
+	width:12%;
+	background-color: white;
+	overflow: auto;
+	position: absolute;
+	z-index: 4000;
+	display: none;
+		border: 1px solid black;
+}
+.umenus{
+	font-size: 10px;
+	width: 100%;
+	height: 25%;
+
+}
+.umenus:hover{
+	background-color: #e5e5e5;
+	transition: 0.5s;
+}
+.umenus a{
+	line-height: 45px;
+	text-decoration: none;
+}
+/*this is for the succued signup */
+.singup_suck{
+ position: absolute;
+ top: 33%;
+ left: 25%;
+ background-color: white;
+ display: none;
+ height: 70px;
+ width: 700px;
+ z-index: 2000;
+ float: left;
+}
+.singup_suck p{
+ margin-left: 10px;
+ display: inline-block;
+ height: 70px;
+ font-size: 20px;
+ width: 600px;
+}
+.singup_suck button{
+ font-size: 15px;
+ width: 40px;
+ height: 30px;
+margin-left: 10px;
+}
+.ft{height:130px;width: 33.3%;text-align: center;float:left; }
+.fs{height:30%;width:100%;text-align: center; color: white; font-size:18px; font-family: 'Chewy', cursive;}
+.empty{height:10%;width:100%;}
+#pad{text-align: right;}
+a{text-decoration:none;}
+#mmmenu{
+	background-color: #49AA9D;
+}
+.delivery_con{
+	top: 30%;
+	left: 33%;
+	height: 400px;
+	width:30%;
+	background-color: white;
+	overflow: auto;
+	position: absolute;
+	z-index: 4000;
+	display: none;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 20px;
+		line-height: 60px;
+}
+.rserve{
+	height: 35%;
+	font-size: 12px;
+}
+.rserve textarea{
+	font-size: 12px;
+	width: 80%;
+	height: 70%;
+}
+.delivery_con input[type="submit"]{
+	border: none;
+	background-color: #DDDDDD;
+	color: #675D58;
+
+}
+.delivery_con input[type="submit"]:hover{
+	background-color: #897d76;
+	transition: 1s;
+}
+/*styles for the loging cheak*/
+.plogin{
+background-color: none;
+   position: fixed;
+  top: 33%;
+  left: 33%;
+  display: none;
+  height:174px;
+  width: 485px;
+  z-index: 5000;
+  float: left;
+	background-image: url(product/plog.png);
+}
+.plogin p{
+ margin-left: 10px;
+ display: inline-block;
+ height: 70px;
+ font-size: 20px;
+ width: 250px;
+}
+.plogin button{
+ font-size: 24px;
+ width: 60px;
+ height: 40px;
+margin-left: 400px;
+margin-top: 120px;
+border: none;
+}
+.plogin button:hover{
+	text-decoration: underline;
+ font-size: 24px;
+ width: 60px;
+ height: 40px;
+margin-left: 400px;
+margin-top: 120px;
+border: none;
+cursor: pointer;
+}
+/*fot suckorder*/
+.suckorder{
+   position: fixed;
+  top: 33%;
+  left: 23%;
+  background-color: white;
+  display: none;
+  height: 70px;
+  width: 600px;
+  z-index: 5000;
+  float: left;
+}
+.suckorder p{
+ margin-left: 10px;
+ display: inline-block;
+ height: 70px;
+ font-size: 18px;
+ width: 400px;
+}
+.suckorder button{
+ font-size: 20px;
+ width: 50px;
+ height: 40px;
+margin-left: 100px;
+border: none;
+}
+.vegpack{
+margin-top: 70px;
+	width: 17%;
+	height: 400px;
+	position: fixed;
+font-size: 15px;
+}
+.vegpack img{
+	margin-left: 30px;
+	width: 70%;
+	height: 40%;
+}
+.vegpack h2{margin: none;
+	font-size: 20px;
+}

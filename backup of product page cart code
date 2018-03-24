@@ -1,0 +1,18 @@
+My cart(<?php
+if(isset($_COOKIE["product_ids"])){
+$value=$_COOKIE["product_ids"];
+  $varable=explode(",",$value);
+  $cartp=count($varable,1);
+
+  if($cartp==1){
+    echo 1;
+  }else if($cartp==2){echo 2;}
+  else if($cartp>2){
+    echo count($varable);
+  }
+}
+else{
+  setcookie("product_ids","1",time() + (86400 * 30),'/');
+  echo "0";
+}
+ ?>)

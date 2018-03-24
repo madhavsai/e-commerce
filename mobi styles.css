@@ -1,0 +1,100 @@
+@charset "utf-8";
+@charset "utf-8";
+html,body{
+	height:100%;
+	width:100%;
+	margin:0;
+	}
+.head{
+	height:25%;
+	width:100%;
+	}
+
+.main_cont{
+	width:100%;
+	background-color:black;
+	height:100%;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+.logo_cont{
+	background-color:#36D195;
+	height:60%;
+	width:35%
+	}
+.logo{
+	width:100%;
+	background-color:#69E9BB;
+	height:100%;
+
+}
+.empty_cont{
+	height:60%;
+	width:20%;
+	order:1;
+
+}
+.empty{
+	width:0px;
+	background-color:#F1E9E9;
+	height:0px;
+
+}
+.acc_cart{
+	width:45%;
+	height:60%;
+	display:flex;
+	order:2;
+
+}
+.account{
+	width:50%;
+	background-color:#4F60E5;
+	height:100%;
+
+}
+.cart{
+	width:50%;
+	background-color:#4D54D4;
+	height:100%;
+
+}
+.menu_cont{
+	width:20%;
+	background-color:#E7EC38;
+	height:40%;
+	order:3;
+
+}*/
+.menu{
+	width:100%;
+	height:100%;
+}
+.search_cont{
+	width:80%;
+	height:40%;
+	background-color:#44E0E8;
+	order:4;
+}
+.txt{
+	width:100%;
+	height:30%;
+}
+
+.some_txt{
+	width:100%;
+	height:100%;
+	background-color:#EB4B4D;
+}
+.img_canvas{
+	height:40%;
+	width:100%;
+	background-color:#E3F05D;
+}
+.fotter{
+	height:20%;
+	width:100%;
+	background-color:#ADA7A7;
+}
+/* CSS Document */
